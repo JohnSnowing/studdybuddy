@@ -24,4 +24,4 @@ def room(request, pk):
             room = 1
     
     context = {"room": room}
-    return render(request, "base/room.html, base/room.html", context)
+    return render(request, "base/room.html", context)
